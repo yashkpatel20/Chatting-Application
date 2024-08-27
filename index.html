@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Chatting Application</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="loader" class="loader"></div>
+    <div id="content" class="hidden">
+        <div class="hero">
+            <div class="header">
+                <div class="logo">
+                    <img src="./assets/images/logo.jpg" alt="logo" height="36.56px" width="95px">
+                </div>
+                <div class="manu">
+                    <span>Demos</span>
+                    <span>About</span>
+                    <span>Blog</span>
+                    <span>Pages</span>
+                    <span>Contact</span>
+                </div>
+                <div class="header-btn">
+                    <div id="login-btn">
+                        <a href="https://yashupatel1500.blogspot.com/" target="_blank"
+                            style="text-decoration: none; color: inherit;">Login</a>
+                    </div>
+                    <div id="getstart-btn">
+                        <a href="https://yashupatel1500.blogspot.com/" target="_blank"
+                            style="text-decoration: none; color: inherit;">Get Started Free</a>
+                    </div>
+                </div>
+                <div class="manu-slider">
+                    <img src="./assets/images/hamburger.png" alt="manu" height="24.66px" width="24.66px" />
+                </div>
+            </div>
+            <div class="img">
+                <div id="crcle1"></div>
+                <div id="crcle2"></div>
+                <div id="img-contain">
+                    <img src="./assets/images/smiling-african.png" alt="hero-photo" height="100%" width="100%">
+                    <div class="manubar">
+                        <span>Demos</span>
+                        <span>About</span>
+                        <span>Blog</span>
+                        <span>Pages</span>
+                        <span>Contact</span>
+                    </div>
+                </div>
+            </div>
+            <div id="text-container">
+                <span id="text1">
+                    Start chatting with <br />customers,<br />anytime, anywhere<br /> with Apex
+                </span>
+                <span id="text2">
+                    Great software that allows you to chat from any <br /> place at any time without any interruption.
+                </span>
+                <button id="chatting-btn">
+                    Start Chatting Now
+                    <img id="arrow-img" src="./assets/images/right-arrow.png" alt="arrow"/>
+
+                </button>
+            </div>
+
+        </div>
+        <div class="feature-list">
+            <div class="content">
+                <span id="c1">Features for a better experience</span>
+                <div class="features">
+                    <div class="f1">
+                        <div id="f1-content">
+                            <div id="icon1">
+                                <img src="./assets/images/icon1.jpg" alt="icon1" height="60px" width="60px" />
+                            </div>
+                            <span id="text-feature1">
+                                <label>Video messaging</label>
+                                <span>This software is very easy for you to<br /> manage. You can use it as you
+                                    wish.</span>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="f2">
+                        <div id="f2-content">
+                            <div id="icon2">
+                                <img src="./assets/images/icon2.jpg" alt="icon2" height="60px" width="60px" />
+                            </div>
+                            <span id="text-feature2">
+                                <label>Save your time</label>
+                                <span>This software is very easy for you to<br /> manage. You can use it as you
+                                    wish.</span>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="f3">
+                        <div id="f3-content">
+                            <div id="icon3">
+                                <img src="./assets/images/icon3.jpg" alt="icon3" height="60px" width="60px" />
+                            </div>
+                            <span id="text-feature3">
+                                <label>Keep safe & private</label>
+                                <span>This software is very easy for you to<br /> manage. You can use it as you
+                                    wish.</span>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="leftright-box">
+            <div id="leftright-box_content">
+                <div id="image-box-cantain">
+                    <div id="image-box">
+                        <div id="img-box">
+                            <div id="group-chat">
+                                <div id="chat1">
+                                    <div class="profilepic1">
+                                        <img src="./assets/images/profile1.jpg" alt="profile1" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext1">
+                                        <span>Hello! My name is Alex,<br /> how can I help you?</span>
+                                    </div>
+                                </div>
+                                <div id="chat2">
+                                    <div class="profilepic2">
+                                        <img src="./assets/images/profile2.jpg" alt="profilepic2" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext2">
+                                        <span>Hi! Julia here, I have a few<br />question i would love to<br /> ask you,
+                                            if
+                                            that is ok.</span>
+                                    </div>
+                                </div>
+                                <div id="chat3">
+                                    <div class="profile3">
+                                        <img src="./assets/images/profile1.jpg" alt="profile3" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext3">
+                                        <span>Nice to meet you, Julia!</span>
+                                    </div>
+                                    <div id="dot">
+                                        <span id="textdot">...</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="message-box">
+                                <span>Write your reply...</span>
+                                <svg width="37" height="36" viewBox="0 0 37 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_1091)">
+                                        <rect x="0.989563" y="0.562134" width="35.4334" height="35.4334" rx="1.77167"
+                                            fill="#D0D4E1" />
+                                        <mask id="mask0_2_1091" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+                                            x="10" y="10" width="17" height="17">
+                                            <rect x="10.7337" y="10.3063" width="15.945" height="15.945" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_2_1091)">
+                                            <path d="M16.7132 13.6282L21.3638 18.2788L16.7132 22.9294" stroke="white"
+                                                stroke-width="1.77167" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_1091">
+                                            <rect width="35.4334" height="35.4334" fill="white"
+                                                transform="translate(0.989563 0.562134)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="text-box-cantain">
+                    <label>Start selling directly inside conversations</label>
+                    <span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        all
+                        injected humour or randomised words which don't look even slightly believable. </span>
+                </div>
+            </div>
+        </div>
+        <div class="leftright-box_odd">
+            <div id="leftright-box_content_odd">
+                <div id="image-box-cantain_odd">
+                    <div id="image-box_odd">
+                        <div id="img-box_odd">
+                            <div id="group-chat_odd">
+                                <div id="chat1">
+                                    <div class="profilepic1">
+                                        <img src="./assets/images/profile1.jpg" alt="profile1" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext1">
+                                        <span>Hello! My name is Alex,<br /> how can I help you?</span>
+                                    </div>
+                                </div>
+                                <div id="chat2">
+                                    <div class="profilepic2">
+                                        <img src="./assets/images/profile2.jpg" alt="profilepic2" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext2">
+                                        <span>Hi! Julia here, I have a few<br />question i would love to<br /> ask you,
+                                            if
+                                            that is ok.</span>
+                                    </div>
+                                </div>
+                                <div id="chat3">
+                                    <div class="profile3">
+                                        <img src="./assets/images/profile1.jpg" alt="profile3" height="39.86px"
+                                            width="39.86px" />
+                                    </div>
+                                    <div id="chattext3">
+                                        <span>Nice to meet you, Julia!</span>
+                                    </div>
+                                    <div id="dot">
+                                        <span id="textdot">...</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="message-box">
+                                <span>Write your reply...</span>
+                                <svg width="37" height="36" viewBox="0 0 37 36" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_1091)">
+                                        <rect x="0.989563" y="0.562134" width="35.4334" height="35.4334" rx="1.77167"
+                                            fill="#D0D4E1" />
+                                        <mask id="mask0_2_1091" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+                                            x="10" y="10" width="17" height="17">
+                                            <rect x="10.7337" y="10.3063" width="15.945" height="15.945" fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_2_1091)">
+                                            <path d="M16.7132 13.6282L21.3638 18.2788L16.7132 22.9294" stroke="white"
+                                                stroke-width="1.77167" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_1091">
+                                            <rect width="35.4334" height="35.4334" fill="white"
+                                                transform="translate(0.989563 0.562134)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="text-box-cantain_odd">
+                    <label>Start selling directly inside conversations</label>
+                    <span>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        all
+                        injected humour or randomised words which don't look even slightly believable. </span>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial">
+            <div id="tcircle1">
+                <div id="tcircle2">
+                    <div id="tcircle3">
+                        <div id="tcircle4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content_testimonial">
+                <span>Our blessed client<br />said about us 😍</span>
+                <div id="testimonial-box">
+                    <div id="testimonial-box1">
+                        <div id="coment1">
+                            <label>“Incredible Experience”</label>
+                            <span>We had an incredible experience working with Mixland and<br />
+                                were impressed they made such a big difference in only<br />
+                                three weeks. Our team is so grateful for the wonderful<br />
+                                improvements they made and their ability to get familiar<br />
+                                with the concept so quickly.</span>
+                        </div>
+                        <div id="triangle1"></div>
+                        <div id="user1">
+                            <div id="userpic1">
+                                <img src="./assets/images/user1.jpg" alt="user1" height="62.22px" width="62.22px" />
+                            </div>
+                            <div id="user1details">
+                                <label>Wade Warren</label>
+                                <span>CEO, ABC Corporation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="testimonial-box2">
+                        <div id="coment2">
+                            <label>“Dependable, Responsive, Professional”</label>
+                            <span>Fermin Apps has collaborated with Mixland team for several<br />
+                                projects such as Photo Sharing Apps and Custom Social<br />
+                                Networking Apps. The experience has been pleasant,<br />
+                                professional and exceeding our expectations. The team is<br />
+                                always thinking beyond.</span>
+                        </div>
+                        <div id="triangle2"></div>
+                        <div id="user2">
+                            <div id="userpic2">
+                                <img src="./assets/images/user2.jpg" alt="user2" height="62.22px" width="62.22px" />
+                            </div>
+                            <div id="user2details">
+                                <label>Esther Howard</label>
+                                <span>CEO, ABC Corporation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="CTA-footer">
+            <div id="CTA">
+                <span>Ready to grow your business?<br />
+                    Start with Apex, become faster<br />every second</span>
+                <button>Start Chatting Now</button>
+            </div>
+            <div id="middle">
+                <div id="logo-down">
+                    <img src="./assets/images/logo.jpg" alt="logo" height="36.56" width="95px">
+                </div>
+                <div id="widget">
+                    <span>About</span>
+                    <span>Features</span>
+                    <span>Works</span>
+                    <span>Support</span>
+                </div>
+                <div id="social">
+                    <div id="twitter">
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fyashpatel1500" target="_blank">
+                            <img src="./assets/images/twitter.jpg" alt="twitter" height="13.71px" width="16.02px" /></a>
+                    </div>
+                    <div id="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=100015103576318&mibextid=ZbWKwL"
+                            target="_blank">
+                            <img src="./assets/images/facebook.jpg" alt="facebook" height="18.48px"
+                                width="9.07px" /></a>
+                    </div>
+                    <div id="instragram"><a href="https://www.instagram.com/yashu_patel1500?igsh=cWdwdnRtbnF3ODk2"
+                            target="_blank">
+                            <img src="./assets/images/instragram.jpg" alt="instragram" height="20.57px"
+                                width="19.43px" /></a>
+                    </div>
+                    <div id="github">
+                        <a href="https://github.com/yashkpatel20" target="_blank">
+                            <img src="./assets/images/github.jpg" alt="github" height="19.19px" width="18.58px"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom">
+                <hr>
+                <span>&copy;Copyright 2022, All Rights Reserved</span>
+                <label>Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms & Conditions</label>
+            </div>
+        </div>
+        <script src="./assets/js/theme.js"></script>
+    </div>
+
+</body>
+
+</html>
